@@ -43,7 +43,7 @@ const AllRoute = () => {
 
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/tide-network">
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="home" element={<Homepage />} />
