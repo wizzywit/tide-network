@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route, } from "react-router-dom";
+import { HashRouter, Routes, Route, } from "react-router-dom";
 
 import Homepage from '../HomePage/HomePage'
 import HomePage2 from '../HomePage2/HomePage2';
@@ -43,7 +43,7 @@ const AllRoute = () => {
 
   return (
     <div className="App">
-      <BrowserRouter basename="/tide-network">
+      <HashRouter>
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="home" element={<Homepage />} />
@@ -83,7 +83,7 @@ const AllRoute = () => {
           <Route path='register' element={<SignUpPage />} />
           <Route path='forgot-password' element={<ForgotPassword />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
 
     </div>
   );
