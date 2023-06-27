@@ -1,0 +1,47 @@
+.wpo-section-title {
+	text-align: center;
+	max-width: 577px;
+	margin: 0 auto;
+	margin-bottom: 60px;
+
+	span {
+		font-family: 'Futura PT';
+		font-style: normal;
+		font-weight: 450;
+		font-size: 20px;
+		line-height: 26px;
+		text-transform: uppercase;
+		background: $theme-primary-color-gradient;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-clip: text;
+		text-fill-color: transparent;
+	}
+
+	h2 {
+		font-size: 42px;
+		margin: 0;
+		font-family: $heading-font;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 50px;
+		line-height: 64px;
+		margin-top: 10px;
+
+		@include media-query(767px) {
+			font-size: 32px;
+			line-height: 40px;
+			margin-top: 10px;
+		}
+
+		@include media-query(330px) {
+			font-size: 30px;
+		}
+
+	}
+
+	p {
+		font-size: 18px;
+	}
+
+}

@@ -1,0 +1,108 @@
+/*--------------------------------------------------------------
+22. wpo-terms-section
+--------------------------------------------------------------*/
+
+.wpo-terms-section {
+    h4 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .wpo-terms-wrap {
+        .wpo-terms-img {
+            img {
+                width: 100%;
+            }
+        }
+
+        .wpo-terms-text {
+            padding-top: 30px;
+            margin-bottom: 30px;
+
+            h2 {
+                font-size: 30px;
+                font-weight: 700;
+                margin-bottom: 20px;
+
+                @media(max-width:991px) {
+                    font-size: 30px;
+                }
+
+                @media(max-width:767px) {
+                    font-size: 25px;
+                }
+            }
+
+            ul {
+                list-style: none;
+                margin-top: 20px;
+                margin-bottom: 40px;
+
+                li {
+                    padding: 10px;
+                    position: relative;
+                    padding-left: 20px;
+
+                    &:before {
+                        position: absolute;
+                        left: 0;
+                        top: 50%;
+                        width: 8px;
+                        height: 8px;
+                        background: $theme-primary-color;
+                        content: "";
+                        border-radius: 50%;
+                        transform: translateY(-50%);
+                    }
+                }
+            }
+
+            .t-sub {
+                padding: 20px 0;
+
+                .wpo-p-details-img {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+
+    .wpo-faq-section {
+        margin-top: 40px;
+    }
+
+    .wpo-faq-section {
+        margin-top: 30px;
+    }
+
+    .MuiAccordion-root {
+        border: 0;
+        border: 1px solid $section-bg-color;
+        padding: 10px 20px;
+        margin-bottom: 20px;
+        background: $section-bg-color;
+        box-shadow: none;
+
+        .accordion-body {
+            padding-left: 0;
+            padding-right: 0;
+            border-top: 1px solid rgba(255, 255, 255, .13);
+
+            p {
+                color: $text-color;
+            }
+        }
+
+        &:before {
+            display: none;
+        }
+    }
+
+    .accordion-button {
+        background: transparent;
+    }
+
+    .accordion-button:not(.collapsed) {
+        box-shadow: inset 0 -1px 0 rgba(255, 255, 255, .13);
+    }
+}

@@ -1,0 +1,69 @@
+/*---------------------------
+	Fonts
+----------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap');
+
+@font-face {
+	font-family: 'Futura PT';
+	src: url('../../fonts/FuturaPT-Demi.woff2') format('woff2'),
+		url('../../fonts/FuturaPT-Demi.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Futura PT';
+	src: url('../../fonts/FuturaPT-Heavy.woff2') format('woff2'),
+		url('../../fonts/FuturaPT-Heavy.woff') format('woff');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Futura PT';
+	src: url('../../fonts/FuturaPT-Bold.woff2') format('woff2'),
+		url('../../fonts/FuturaPT-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Futura PT';
+	src: url('../../fonts/FuturaPT-Medium.woff2') format('woff2'),
+		url('../../fonts/FuturaPT-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+
+// fonts
+$base-font-size: 15;
+$base-font: 'Nunito Sans', sans-serif;
+$heading-font:'Futura PT';
+
+
+// color
+$dark-gray: #16182F; //
+$body-color: #525252;
+$white: #fff; //
+$light: #FFEBEB; //
+$black: #000;
+$small-black: #333;
+$cyan: #848892; //
+
+$theme-primary-color: #ED6B37; //
+$theme-primary-color-s2: #EC180C; //
+$theme-primary-color-gradient:linear-gradient(90deg, #ED6B37 11.32%, #EC180C 95.28%); //
+$body-bg-color: #fff;
+$section-bg-color: #F9F9F9; //
+$section-bg-color-s2: #F8F2F2; //
+$text-color: #525252; //
+$text-light-color: #BFC4DC; //
+$text-light-color-s2: #989AA5; //
+$heading-color: $dark-gray;
+$border-color: #ebebeb;
+$border-color-s2: #DDDDDD;

@@ -1,0 +1,202 @@
+@font-face {
+    font-family: "flaticon_politian";
+    src: url("../fonts/flaticon_politian.ttf?089f0d58892b1143b9536dc6a3522f6f") format("truetype"),
+url("../fonts/flaticon_politian.woff?089f0d58892b1143b9536dc6a3522f6f") format("woff"),
+url("../fonts/flaticon_politian.woff2?089f0d58892b1143b9536dc6a3522f6f") format("woff2"),
+url("../fonts/flaticon_politian.eot?089f0d58892b1143b9536dc6a3522f6f#iefix") format("embedded-opentype"),
+url("../fonts/flaticon_politian.svg?089f0d58892b1143b9536dc6a3522f6f#flaticon_politian") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_politian !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-quote:before {
+    content: "\f101";
+}
+.flaticon-play-button:before {
+    content: "\f102";
+}
+.flaticon-quotation:before {
+    content: "\f103";
+}
+.flaticon-instagram:before {
+    content: "\f104";
+}
+.flaticon-maps-and-flags:before {
+    content: "\f105";
+}
+.flaticon-play:before {
+    content: "\f106";
+}
+.flaticon-youtube:before {
+    content: "\f107";
+}
+.flaticon-linkedin:before {
+    content: "\f108";
+}
+.flaticon-instagram-1:before {
+    content: "\f109";
+}
+.flaticon-twitter:before {
+    content: "\f10a";
+}
+.flaticon-facebook-app-symbol:before {
+    content: "\f10b";
+}
+.flaticon-calendar:before {
+    content: "\f10c";
+}
+.flaticon-comment-white-oval-bubble:before {
+    content: "\f10d";
+}
+.flaticon-user:before {
+    content: "\f10e";
+}
+.flaticon-phone-call:before {
+    content: "\f10f";
+}
+.flaticon-house:before {
+    content: "\f110";
+}
+.flaticon-email:before {
+    content: "\f111";
+}
+.flaticon-location:before {
+    content: "\f112";
+}
+.flaticon-send:before {
+    content: "\f113";
+}
+.flaticon-telephone:before {
+    content: "\f114";
+}
+.flaticon-placeholder:before {
+    content: "\f115";
+}
+.flaticon-left-quote:before {
+    content: "\f116";
+}
+.flaticon-right-arrows:before {
+    content: "\f117";
+}
+.flaticon-right-arrow:before {
+    content: "\f118";
+}
+.flaticon-24-hours-support:before {
+    content: "\f119";
+}
+.flaticon-customer-service:before {
+    content: "\f11a";
+}
+.flaticon-telephone-1:before {
+    content: "\f11b";
+}
+.flaticon-email-1:before {
+    content: "\f11c";
+}
+.flaticon-right-quote-sign:before {
+    content: "\f11d";
+}
+.flaticon-google-plus:before {
+    content: "\f11e";
+}
+.flaticon-location-1:before {
+    content: "\f11f";
+}
+.flaticon-mail:before {
+    content: "\f120";
+}
+.flaticon-play-button-1:before {
+    content: "\f121";
+}
+.flaticon-checked:before {
+    content: "\f122";
+}
+.flaticon-right-arrow-1:before {
+    content: "\f123";
+}
+.flaticon-left-arrow:before {
+    content: "\f124";
+}
+.flaticon-right-arrow-2:before {
+    content: "\f125";
+}
+.flaticon-left-arrow-1:before {
+    content: "\f126";
+}
+.flaticon-left-arrow-2:before {
+    content: "\f127";
+}
+.flaticon-next:before {
+    content: "\f128";
+}
+.flaticon-phone-call-1:before {
+    content: "\f129";
+}
+.flaticon-search:before {
+    content: "\f12a";
+}
+.flaticon-shopping-cart:before {
+    content: "\f12b";
+}
+.flaticon-email-2:before {
+    content: "\f12c";
+}
+.flaticon-pinterest:before {
+    content: "\f12d";
+}
+.flaticon-shopping-bag:before {
+    content: "\f12e";
+}
+.flaticon-quote-1:before {
+    content: "\f12f";
+}
+.flaticon-smile:before {
+    content: "\f130";
+}
+.flaticon-play-1:before {
+    content: "\f131";
+}
+.flaticon-charity:before {
+    content: "\f132";
+}
+.flaticon-conference:before {
+    content: "\f133";
+}
+.flaticon-conference-1:before {
+    content: "\f134";
+}
+.flaticon-time:before {
+    content: "\f135";
+}
+.flaticon-quote-2:before {
+    content: "\f136";
+}
+.flaticon-goal:before {
+    content: "\f137";
+}
+.flaticon-credit:before {
+    content: "\f138";
+}
+.flaticon-pin:before {
+    content: "\f139";
+}
+.flaticon-bus:before {
+    content: "\f13a";
+}
+.flaticon-team-work:before {
+    content: "\f13b";
+}
+.flaticon-job:before {
+    content: "\f13c";
+}
+.flaticon-community:before {
+    content: "\f13d";
+}

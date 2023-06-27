@@ -1,0 +1,352 @@
+/*==========================================
+12. wpo-team-single
+===========================================*/
+
+.team-pg-area {
+    margin: 0 auto;
+    padding-top: 200px;
+    padding-bottom: 100px;
+
+    @media(max-width:1199px) {
+        padding: 100px 0;
+    }
+
+    @media(max-width:991px) {
+        padding: 90px 0;
+    }
+
+    @media(max-width:767px) {
+        padding: 70px 0;
+    }
+}
+
+.team-single-wrap {
+    background: $white;
+    padding: 100px;
+    padding-top: 0;
+    box-shadow: 0px 1px 15px 0px rgba(62, 65, 159, 0.15);
+
+    @media(max-width:1199px) {
+        padding: 50px;
+    }
+
+    @media(max-width:767px) {
+        padding: 30px;
+    }
+
+    @media(max-width:575px) {
+        padding: 15px;
+    }
+}
+
+.team-info-img {
+    margin-top: -100px;
+    max-width: 480px;
+
+    @media(max-width:1199px) {
+        margin-top: 0;
+    }
+
+    @media(max-width:991px) {
+        max-width: 100%;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+.team-info-text {
+    padding-left: 30px;
+    padding-top: 30px;
+
+    @media(max-width:991px) {
+        padding-left: 0;
+    }
+
+    h2 {
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 55px;
+        color: $dark-gray;
+        margin-top: 0;
+        margin-bottom: 30px;
+
+        @media(max-width:575px) {
+            font-size: 30px;
+            line-height: 45px;
+        }
+    }
+
+    ul {
+        li {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 27px;
+            color: #001635;
+            margin-bottom: 15px;
+            list-style: none;
+            font-family: $heading-font;
+
+            @media(max-width:575px) {
+                font-size: 16px;
+                line-height: 27px;
+            }
+
+            &:last-child {
+                padding-bottom: 0;
+            }
+
+            span {
+                font-size: 18px;
+                color: #8c8c8c;
+                display: inline-block;
+                position: relative;
+                padding-left: 5px;
+                font-family: $base-font;
+            }
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .certificates-wrap {
+        margin-top: 40px;
+
+        h2 {
+            font-weight: 400;
+            font-size: 27px;
+            line-height: 37px;
+        }
+
+        .certificates-items {
+            display: flex;
+
+            .certificates-item {
+                &+.certificates-item {
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+}
+
+.team-widget {
+    padding-top: 40px;
+    margin-top: 40px;
+    border-top: 1px solid #D9D9D9;
+
+    h2 {
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 48px;
+        margin-bottom: 30px;
+
+        @media(max-width:767px) {
+            font-size: 25px;
+            line-height: 35px;
+            margin-bottom: 15px;
+        }
+    }
+}
+
+.team-exprience-area {
+    .exprience-wrap {
+        max-width: 560px;
+    }
+
+    .education-area {
+        padding-left: 50px;
+
+        @media(max-width:991px) {
+            padding-left: 0;
+            margin-bottom: 40px;
+        }
+
+        .education-area {
+            max-width: 600px;
+        }
+
+        ul {
+            list-style: none;
+
+            li {
+                padding-bottom: 15px;
+                position: relative;
+                padding-left: 30px;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 30px;
+
+                &:before {
+                    position: absolute;
+                    left: 0;
+                    top: 5px;
+                    content: "\e661";
+                    font-family: 'themify';
+                    font-size: 14px;
+                }
+            }
+
+        }
+
+
+        .ex-wiget {
+            padding-top: 60px;
+        }
+
+        .ex-wiget h2 {
+            font-size: 30px;
+            font-weight: 700;
+            color: #333333;
+            margin-bottom: 30px;
+        }
+    }
+}
+
+.skills-area {
+    padding-top: 40px;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-top: 1px solid #D9D9D9;
+    border-bottom: 1px solid #D9D9D9;
+
+    @media(max-width:991px) {
+        padding-top: 20px;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+
+    .wpo-skill-progress {
+
+        .wpo-progress-single {
+            margin-bottom: 30px;
+            position: relative;
+
+            h5 {
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 23px;
+                color: #525252;
+                font-family: $base-font;
+
+                @media(max-width:767px) {
+                    font-size: 18px;
+                }
+            }
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            .progress {
+                background: $section-bg-color;
+                height: 6px;
+                position: relative;
+
+                .progress-bar {
+                    background-color: $theme-primary-color;
+
+                }
+            }
+        }
+
+        .progress-number {
+            position: absolute;
+            right: 0;
+            top: -10px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 23px;
+            color: #525252;
+
+            @media(max-width:767px) {
+                font-size: 18px;
+                top: -5px;
+            }
+        }
+    }
+}
+
+
+.exprience-wrap p {
+    color: #5d5851;
+    margin-bottom: 30px;
+
+    @media(max-width:991px) {
+        margin-bottom: 15px;
+    }
+}
+
+.exprience-wrap {
+    padding-bottom: 40px;
+}
+
+
+.wpo-contact-area {
+    padding-top: 50px;
+
+    @media(max-width:991px) {
+        padding-top: 20px;
+    }
+
+    .wpo-contact-title {
+        max-width: 580px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+}
+
+.wpo-contact-area .quote-form {
+    max-width: 890px;
+    margin: 0 auto;
+}
+
+.wpo-contact-area .quote-form .form-control {
+    height: 55px;
+    border: 0;
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #f5f5f5;
+
+    &:focus {
+        outline: none;
+        box-shadow: none;
+        border-color: $theme-primary-color;
+    }
+}
+
+.wpo-contact-area .quote-form textarea.form-control {
+    height: 125px;
+}
+
+.wpo-contact-area .quote-form select.form-control {
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    -moz-appearance: none;
+    background: #f5f5f5 url(../../images/select-icon2.png) no-repeat calc(100% - 15px) center;
+    position: relative;
+}
+
+.half-col {
+    float: left;
+    width: 50%;
+    padding: 0 10px 5px;
+
+    @media(max-width:575px) {
+        width: 100%;
+    }
+}
+
+.full-col {
+    padding: 0 10px 5px;
+}
+
+.exprience-area {
+    padding-top: 60px;
+}

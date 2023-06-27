@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "proImg": "/product/1.jpg",
+    "title": "The Audacity of Hope",
+    "slug": "The-Audacity-of-Hope",
+    "price": "340.00",
+    "delPrice": "380.00",
+    "brand":"Gucci",
+    "size":"Xl"
+  },
+  {
+    "id": 2,
+    "proImg": "/product/2.jpg",
+    "title": "The Communist Manifesto",
+    "slug": "The-Communist-Manifesto",
+    "price": "65.00",
+    "delPrice": "85.00",
+    "brand":"Gucci",
+    "size":"XXl"
+  },
+  {
+    "id": 3,
+    "proImg": "/product/3.jpg",
+    "title": "The Federalist Papers",
+    "slug": "The-Federalist-Papers",
+    "price": "285.00",
+    "delPrice": "300.00",
+    "brand":"Gucci",
+    "size":"L"
+  },
+  {
+    "id": 4,
+    "proImg": "/product/4.jpg",
+    "title": "The Shock Doctrine",
+    "slug": "The-Shock-Doctrine",
+    "price": "176.00",
+    "delPrice": "178.00",
+    "brand":"Gucci",
+    "size":"M"
+  },
+  {
+    "id": 5,
+    "proImg": "/product/5.jpg",
+    "title": "Disaster Capitalism",
+    "slug": "Disaster-Capitalism",
+    "price": "125.00",
+    "delPrice": "130.00",
+    "brand":"Gucci",
+    "size":"XXl"
+  },
+  {
+    "id": 6,
+    "proImg": "/product/6.jpg",
+    "title": "The Art of War",
+    "slug": "The-Art-of-War",
+    "price": "548.00",
+    "delPrice": "600.00",
+    "brand":"Gucci",
+    "size":"Xl"
+  },
+  {
+    "id": 7,
+    "proImg": "/product/7.jpg",
+    "title": "The Fifth Risk",
+    "slug": "The-Fifth-Risk",
+    "price": "125.00",
+    "delPrice": "130.00",
+    "brand":"Gucci",
+    "size":"XXl"
+  },
+  {
+    "id": 8,
+    "proImg": "/product/8.jpg",
+    "title": "The Anarchy",
+    "slug": "The-Anarchy",
+    "price": "548.00",
+    "delPrice": "600.00",
+    "brand":"Gucci",
+    "size":"Xl"
+  }
+]

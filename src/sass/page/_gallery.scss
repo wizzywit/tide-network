@@ -1,0 +1,90 @@
+/*======================================
+13. wpo-gallery-page
+ =======================================*/
+
+/* 6.2 wpo-portfolio-section */
+.wpo-portfolio-section {
+    position: relative;
+
+    .portfolio-grids {
+
+        .grid {
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .grid {
+        .img-holder {
+            position: relative;
+
+            .react-fancybox{
+                .thumbnail{
+                    cursor: pointer;
+                    &:before{
+                        position: absolute;
+                        left: 2%;
+                        top: 2%;
+                        width: 96%;
+                        height: 96%;
+                        content: "\e61a";
+                        background: $theme-primary-color-gradient;
+                        opacity: 0;
+                        transition: all .3s;
+                        transform: scale(0);
+                        font-family: 'themify';
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column;
+                        text-align: center;
+                        font-size: 30px;
+                        color: $white;
+                        cursor: pointer;
+                    }
+                    
+                    &:hover{
+                        &:before{
+                            opacity: .8;
+                            transform: scale(1);
+                        }
+                    }
+
+                    img{
+                        max-width: 100%;
+                    }
+                    
+                }
+            }
+
+            
+        }
+    }
+
+    .img-holder:hover .hover-content {
+        opacity: 1;
+    }
+
+    .img-holder:hover {
+        &:before {
+            opacity: .8;
+            transform: scale(1);
+        }
+
+    }
+
+    .react-fancybox .box{
+        z-index: 9999;
+    }
+
+    .react-fancybox .close-btn{
+        cursor: pointer;
+        width: unset!important;
+    }
+
+    .react-fancybox .thumbnail img{
+        max-width: 100%;
+        width: 100%;
+    }
+
+}

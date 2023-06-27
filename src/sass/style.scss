@@ -1,0 +1,163 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+Theme Name:     Politian - Political Campaign HTML5 Template
+Version:        1.0.0
+-------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+
+1. General
+	1.1 Theme Reset Style
+	1.2 Global Elements
+
+2. header
+	2.1 topbar
+	2.2 navigation
+
+3. content
+	3.1 wpo-features-area
+	3.2 wpo-about-section
+	3.3 wpo-service-section
+	3.4 wpo-campaign-area
+	3.5 wpo-testimonial-section
+	3.6 wpo-fun-fact-section
+	3.7 wpo-team-section
+	3.8 wpo-donors-section
+	3.9 wpo-blog-section
+	3.10 wpo-instagram-section
+	3.11 partners-section
+
+4. wpo-footer
+
+5. Home-style-2
+   5.1 wpo-service-section-s2
+   5.2 wpo-about-section-s2
+   5.3 wpo-campaign-area-s2
+   5.4 wpo-fun-fact-section-s2
+
+6. Home-style-3
+   6.1 wpo-features-s2
+   6.2 wpo-about-section-s3
+   6.3 wpo-fun-fact-section-s3
+   6.4 wpo-campaign-area-s3 
+
+7. Home-style-4
+   7.1 wpo-about-section-s4
+   7.2 wpo-campaign-area-s4
+   7.3 wpo-fun-fact-section-s4
+
+8. campaign-details-page
+
+9. wpo-service-single
+
+10. wpo-shop-page
+
+11. wpo-shop-single-page
+
+12. wpo-team-single
+
+13. wpo-gallery-page
+
+14. wpo-blog-pg-section
+
+15. wpo-blog-single-section
+
+16. wpo-donation-page-area
+
+17. wpo-cart-page
+
+18. wpo-checkout-page-style
+
+19. wpo-contact-pg-section
+
+20. wpo-faq-page
+
+21. error-404-section
+
+22. wpo-terms-section
+
+23. volunteer page
+
+----------------------------------------------------------------*/
+
+
+
+/*------------------------------------------------------------------
+1. General
+----------------------------------------------------------------*/
+
+// helpers
+@import "helpers/variables";
+@import "helpers/functions";
+@import "helpers/mixins";
+
+// base
+@import "base/base";
+
+
+// components
+@import "components/section-title";
+@import "components/buttons";
+@import "components/form";
+@import "components/social-links";
+@import "components/page-title";
+@import "components/preloader";
+@import "components/blog-sidebar";
+@import "components/pagination";
+
+// layout
+@import "layout/header";
+@import "layout/hero-slider";
+@import "layout/footer";
+
+// components
+@import "components/sticky-header";
+
+
+// page
+@import "page/home-default";
+
+@import "page/home-style-2";
+
+@import "page/home-style-3";
+
+@import "page/home-style-4";
+
+@import "page/campaign-single";
+
+@import "page/team-single";
+
+@import "page/gallery";
+
+@import "page/shop";
+
+@import "page/shop-single";
+
+@import "page/service-single";
+
+@import "page/checkout";
+
+@import "page/cart";
+
+@import "page/faq";
+
+@import "page/donate";
+
+@import "page/_blog";
+
+@import "page/_blog-single";
+
+@import "page/contact";
+
+@import "page/error-404";
+
+@import "page/terms";
+
+@import "page/volunteer";
+
+
+
+
