@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tide-network/static/css/main.83cbad15.css",
-    "main.js": "/tide-network/static/js/main.d6851836.js",
+    "main.js": "/tide-network/static/js/main.5ea63ceb.js",
     "static/js/787.e7eb3825.chunk.js": "/tide-network/static/js/787.e7eb3825.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/tide-network/static/media/fontawesome-webfont.ed6298903ae1554c7f3e.svg",
     "static/media/back-shape-2.png": "/tide-network/static/media/back-shape-2.2c5bf9aff3f23f3c1076.png",
@@ -48,11 +48,11 @@
     "static/media/slick.woff": "/tide-network/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/tide-network/index.html",
     "main.83cbad15.css.map": "/tide-network/static/css/main.83cbad15.css.map",
-    "main.d6851836.js.map": "/tide-network/static/js/main.d6851836.js.map",
+    "main.5ea63ceb.js.map": "/tide-network/static/js/main.5ea63ceb.js.map",
     "787.e7eb3825.chunk.js.map": "/tide-network/static/js/787.e7eb3825.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.83cbad15.css",
-    "static/js/main.d6851836.js"
+    "static/js/main.5ea63ceb.js"
   ]
 }
