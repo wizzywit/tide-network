@@ -1,7 +1,7 @@
 {
   "name": "politian-react",
   "version": "0.1.0",
-  "homepage": "http://politian-react.wpocean.com",
+  "homepage": "https://wizzywit.github.io/tide-network",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.3",
