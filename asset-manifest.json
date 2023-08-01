@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/tide-network/static/css/main.2a15780d.css",
-    "main.js": "/tide-network/static/js/main.028f3e0c.js",
-    "static/js/787.e7eb3825.chunk.js": "/tide-network/static/js/787.e7eb3825.chunk.js",
+    "main.js": "/tide-network/static/js/main.6247a615.js",
+    "static/js/787.2e43708f.chunk.js": "/tide-network/static/js/787.2e43708f.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/tide-network/static/media/fontawesome-webfont.ed6298903ae1554c7f3e.svg",
     "static/media/themify.svg?-fvbane": "/tide-network/static/media/themify.f0fc8c798eac5636249c.svg",
     "static/media/flaticon_politian.svg?": "/tide-network/static/media/flaticon_politian.2f06c3f3c2fe30f07507.svg",
@@ -36,11 +36,11 @@
     "static/media/slick.woff": "/tide-network/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/tide-network/index.html",
     "main.2a15780d.css.map": "/tide-network/static/css/main.2a15780d.css.map",
-    "main.028f3e0c.js.map": "/tide-network/static/js/main.028f3e0c.js.map",
-    "787.e7eb3825.chunk.js.map": "/tide-network/static/js/787.e7eb3825.chunk.js.map"
+    "main.6247a615.js.map": "/tide-network/static/js/main.6247a615.js.map",
+    "787.2e43708f.chunk.js.map": "/tide-network/static/js/787.2e43708f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2a15780d.css",
-    "static/js/main.028f3e0c.js"
+    "static/js/main.6247a615.js"
   ]
 }
