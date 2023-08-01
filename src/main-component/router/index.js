@@ -2,13 +2,13 @@ import React from 'react';
 import { HashRouter, Routes, Route, } from "react-router-dom";
 
 import Homepage from '../HomePage/HomePage'
-import HomePage2 from '../HomePage2/HomePage2';
-import HomePage3 from '../HomePage3/HomePage3';
-import HomePage4 from '../HomePage4/HomePage4';
+// import HomePage2 from '../HomePage2/HomePage2';
+// import HomePage3 from '../HomePage3/HomePage3';
+// import HomePage4 from '../HomePage4/HomePage4';
 import AboutPage from '../AboutPage/AboutPage';
 import CampaignPage from '../CampaignPage/CampaignPage';
-import CampaignPageS2 from '../CampaignPageS2/CampaignPageS2';
-import CampaignPageS3 from '../CampaignPageS3/CampaignPageS3';
+// import CampaignPageS2 from '../CampaignPageS2/CampaignPageS2';
+// import CampaignPageS3 from '../CampaignPageS3/CampaignPageS3';
 import CampaignSinglePage from '../CampaignSinglePage/CampaignSinglePage';
 import TestimonialPage from '../TestimonialPage/TestimonialPage';
 import TeamPage from '../TeamPage/TeamPage';
