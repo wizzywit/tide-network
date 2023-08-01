@@ -9,29 +9,29 @@ const menus = [
     {
         id: 1,
         title: 'Home',
-        link: '/home',
-        submenu: [
-            {
-                id: 11,
-                title: 'Main Home',
-                link: '/home'
-            },
-            {
-                id: 12,
-                title: 'Election Home',
-                link: '/home2'
-            },
-            {
-                id: 13,
-                title: 'Male Candidate',
-                link: '/home3'
-            },
-            {
-                id: 14,
-                title: 'Female Candidate',
-                link: '/home4'
-            },
-        ]
+        link: '/',
+        // submenu: [
+        //     {
+        //         id: 11,
+        //         title: 'Main Home',
+        //         link: '/home'
+        //     },
+        //     {
+        //         id: 12,
+        //         title: 'Election Home',
+        //         link: '/home2'
+        //     },
+        //     {
+        //         id: 13,
+        //         title: 'Male Candidate',
+        //         link: '/home3'
+        //     },
+        //     {
+        //         id: 14,
+        //         title: 'Female Candidate',
+        //         link: '/home4'
+        //     },
+        // ]
     },
 
     {
@@ -44,28 +44,28 @@ const menus = [
         id: 6,
         title: 'Campaign',
         link: '/campaign',
-        submenu: [
-            {
-                id: 61,
-                title: 'Campaign',
-                link: '/campaign',
-            },
-            {
-                id: 62,
-                title: 'Campaign Style 2',
-                link: '/campaign-2'
-            },
-            {
-                id: 63,
-                title: 'Campaign Style 3',
-                link: '/campaign-3'
-            },
-            {
-                id: 64,
-                title: 'Campaign Single',
-                link: '/campaign-single/Support-for-Womans'
-            },
-        ]
+        // submenu: [
+        //     {
+        //         id: 61,
+        //         title: 'Campaign',
+        //         link: '/campaign',
+        //     },
+        //     {
+        //         id: 62,
+        //         title: 'Campaign Style 2',
+        //         link: '/campaign-2'
+        //     },
+        //     {
+        //         id: 63,
+        //         title: 'Campaign Style 3',
+        //         link: '/campaign-3'
+        //     },
+        //     {
+        //         id: 64,
+        //         title: 'Campaign Single',
+        //         link: '/campaign-single/Support-for-Womans'
+        //     },
+        // ]
     },
     {
         id: 3,
@@ -98,31 +98,6 @@ const menus = [
                 link: '/service'
             },
             {
-                id: 389,
-                title: 'Services Single',
-                link: '/service-single/Economic-Establishment'
-            },
-            {
-                id: 371,
-                title: 'Shop',
-                link: '/shop',
-            },
-            {
-                id: 375,
-                title: 'Shop Single',
-                link: '/product-single/The-Audacity-of-Hope'
-            },
-            {
-                id: 376,
-                title: 'Cart',
-                link: '/cart'
-            },
-            {
-                id: 377,
-                title: 'Checkout',
-                link: '/checkout'
-            },
-            {
                 id: 33,
                 title: 'FAQ',
                 link: '/faq'
@@ -132,11 +107,11 @@ const menus = [
                 title: 'Volunteer',
                 link: '/volunteer'
             },
-            {
-                id: 34,
-                title: '404 Error',
-                link: '/404'
-            },
+            // {
+            //     id: 34,
+            //     title: '404 Error',
+            //     link: '/404'
+            // },
             {
                 id: 35,
                 title: 'Login',
@@ -154,38 +129,38 @@ const menus = [
         id: 5,
         title: 'Blog',
         link: '/blog',
-        submenu: [
-            {
-                id: 51,
-                title: 'Blog',
-                link: '/blog'
-            },
-            {
-                id: 52,
-                title: 'Blog Left sidebar',
-                link: '/blog-left'
-            },
-            {
-                id: 53,
-                title: 'Blog full width',
-                link: '/blog-fullwidth'
-            },
-            {
-                id: 54,
-                title: 'Blog single',
-                link: '/blog-single/support-progressive-change'
-            },
-            {
-                id: 55,
-                title: 'Blog single Left sidebar',
-                link: '/blog-single-left-sidebar/support-progressive-change'
-            },
-            {
-                id: 56,
-                title: 'Blog single Left sidebar',
-                link: '/blog-single-fullwidth/support-progressive-change'
-            },
-        ]
+        // submenu: [
+        //     {
+        //         id: 51,
+        //         title: 'Blog',
+        //         link: '/blog'
+        //     },
+        //     {
+        //         id: 52,
+        //         title: 'Blog Left sidebar',
+        //         link: '/blog-left'
+        //     },
+        //     {
+        //         id: 53,
+        //         title: 'Blog full width',
+        //         link: '/blog-fullwidth'
+        //     },
+        //     {
+        //         id: 54,
+        //         title: 'Blog single',
+        //         link: '/blog-single/support-progressive-change'
+        //     },
+        //     {
+        //         id: 55,
+        //         title: 'Blog single Left sidebar',
+        //         link: '/blog-single-left-sidebar/support-progressive-change'
+        //     },
+        //     {
+        //         id: 56,
+        //         title: 'Blog single Left sidebar',
+        //         link: '/blog-single-fullwidth/support-progressive-change'
+        //     },
+        // ]
     },
     {
         id: 88,

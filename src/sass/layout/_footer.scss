@@ -49,6 +49,11 @@
             justify-content: flex-start;
             position: relative;
             top: -10px;
+
+            img{
+                max-height: 70px;
+                max-width: 170px;
+            }
         }
     }
 

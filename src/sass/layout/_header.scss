@@ -9,6 +9,11 @@
 	padding: 20px 0;
 	border-bottom: 1px solid #D9D9D9;
 
+	img {
+		max-width: 170px;
+		max-height: 70px;
+	}
+
 	.contact-info-wrap {
 		display: flex;
 		justify-content: flex-end;
@@ -1325,6 +1330,7 @@
 	.navbar-header .navbar-brand {
 		img {
 			max-width: 170px;
+			max-height: 70px;
 		}
 	}
 

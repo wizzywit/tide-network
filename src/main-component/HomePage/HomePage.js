@@ -15,7 +15,7 @@ import Footer from '../../components/footer/Footer';
 import PartnerSection from '../../components/PartnerSection/PartnerSection';
 import Scrollbar from '../../components/scrollbar/scrollbar';
 import abimg from '../../images/about.jpg'
-import Logo from '../../images/logo.svg'
+import Logo from '../../images/logo.png'
 
 const HomePage =() => {
     return(

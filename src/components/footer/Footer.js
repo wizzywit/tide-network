@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Logo from '../../images/logo.svg'
+import Logo from '../../images/logo.png'
 import Services from '../../api/service';
 
 const ClickHandler = () => {
@@ -19,7 +19,7 @@ const Footer = (props) => {
                         <div className="col col-lg-3 col-md-6 col-12 col-md-6 col-sm-12 col-12">
                             <div className="widget about-widget">
                                 <div className="logo widget-title">
-                                    <Link onClick={ClickHandler} className="navbar-brand" to="/index"><img src={Logo} alt="" /></Link>
+                                    <Link onClick={ClickHandler} className="navbar-brand" to="/"><img src={Logo} alt="" /></Link>
                                 </div>
                                 <ul className="info">
                                     <li>Phone: 111-222-333-2155</li>
@@ -109,7 +109,7 @@ const Footer = (props) => {
                     <div className="row align-items-center">
                         <div className="col col-lg-6 col-md-12 col-12">
                             <ul>
-                                <li>&copy; 2023 <Link onClick={ClickHandler} to="/">Politian</Link>. All rights reserved.</li>
+                                <li>&copy; 2023 <Link onClick={ClickHandler} to="/">Tide network</Link>. All rights reserved.</li>
                             </ul>
                         </div>
                         <div className="col col-lg-6 col-md-12 col-12">
