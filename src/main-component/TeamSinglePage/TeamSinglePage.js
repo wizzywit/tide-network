@@ -38,7 +38,7 @@ const TeamSinglePage = (props) => {
                                 </div>
                                 <div className="col-lg-7">
                                     <div className="team-info-text">
-                                        <h2>Esther Howard</h2>
+                                        <h2>{TeamDetails.name}</h2>
                                         <ul>
                                             <li>Position: <span>{TeamDetails.title}</span></li>
                                             <li>Experience:<span>12 Years</span></li>
@@ -74,14 +74,7 @@ const TeamSinglePage = (props) => {
                                 <div className="col-lg-6">
                                     <div className="exprience-wrap">
                                         <h2>Personal Experience</h2>
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority
-                                            have suffered alteration in some form, by injected humour, or randomised words
-                                            which don’t look even slightly believable. If you are going to use a passage of
-                                            Lorem Ipsum, you need to be sure there isn’t anything embarrassing hidden in the
-                                            middle of text.</p>
-                                        <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks
-                                            as necessary, making this the first true generator on the Internet. It uses a
-                                            dictionary of over 200 Latin words,</p>
+                                        <p>{TeamDetails.experience}</p>
                                     </div>
                                 </div>
                                 <div className="col-lg-6">

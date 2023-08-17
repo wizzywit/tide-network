@@ -11,7 +11,7 @@ const About = (props) => {
                             <div className="wpo-about-img">
                                 <img src={props.abimg} alt="" />
                                 <div className="wpo-about-img-text">
-                                    <h4>1998</h4>
+                                    <h4>2023</h4>
 
                                     <div className="rotate-text">
                                         <span>W</span>
