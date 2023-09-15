@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tide-network/static/css/main.2a15780d.css",
-    "main.js": "/tide-network/static/js/main.4ae5949c.js",
+    "main.js": "/tide-network/static/js/main.365471c7.js",
     "static/js/787.2e43708f.chunk.js": "/tide-network/static/js/787.2e43708f.chunk.js",
     "static/media/about.jpg": "/tide-network/static/media/about.aa1968cb5b4cabe61182.jpg",
     "static/media/1.png": "/tide-network/static/media/1.753819ae728d345d1f39.png",
@@ -21,6 +21,7 @@
     "static/media/1.jpg": "/tide-network/static/media/1.ad68c8db438276c056d2.jpg",
     "static/media/3.jpg": "/tide-network/static/media/3.e7e9f3f3a8fc673699ce.jpg",
     "static/media/back-shape.png": "/tide-network/static/media/back-shape.8c833c4669129d33b9e9.png",
+    "static/media/img-1.png": "/tide-network/static/media/img-1.a66c5828538aac2d4f45.png",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/tide-network/static/media/fontawesome-webfont.f7f1738ca345185e0185.woff",
     "static/media/themify.eot": "/tide-network/static/media/themify.9bad94440d49256265a5.eot",
     "static/media/themify.ttf?-fvbane": "/tide-network/static/media/themify.eda8b94308c6f538f04a.ttf",
@@ -49,11 +50,11 @@
     "static/media/slick.woff": "/tide-network/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/tide-network/index.html",
     "main.2a15780d.css.map": "/tide-network/static/css/main.2a15780d.css.map",
-    "main.4ae5949c.js.map": "/tide-network/static/js/main.4ae5949c.js.map",
+    "main.365471c7.js.map": "/tide-network/static/js/main.365471c7.js.map",
     "787.2e43708f.chunk.js.map": "/tide-network/static/js/787.2e43708f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2a15780d.css",
-    "static/js/main.4ae5949c.js"
+    "static/js/main.365471c7.js"
   ]
 }
