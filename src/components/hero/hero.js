@@ -26,7 +26,7 @@ const Hero = () => {
                             </div>
                             <div className="clearfix"></div>
                             <div data-swiper-parallax="500" className="slide-btns">
-                                <Link onClick={ClickHandler} to="/about" className="theme-btn">Join The Campaign</Link>
+                                <Link onClick={ClickHandler} to="/about" className="theme-btn">Join Our Program</Link>
                             </div>
                             <div className="politian-pic">
                                 <img src={hero1} alt="" />

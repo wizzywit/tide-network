@@ -46,14 +46,27 @@ const Header2 = (props) => {
                                             {/*</ul>*/}
                                         </li>
                                         <li><Link onClick={ClickHandler} to="/about">About us</Link></li>
-                                        <li>
-                                            <Link onClick={ClickHandler} to="/">Campaign</Link>
-                                            {/*<ul className="sub-menu">*/}
-                                            {/*    <li><Link onClick={ClickHandler} to="/campaign">Campaign Style 1</Link></li>*/}
-                                            {/*    <li><Link onClick={ClickHandler} to="/campaign-2">Campaign Style 2</Link></li>*/}
-                                            {/*    <li><Link onClick={ClickHandler} to="/campaign-3">Campaign Style 3</Link></li>*/}
-                                            {/*    <li><Link onClick={ClickHandler} to="/campaign-single/Support-for-Womans">Campaign single</Link></li>*/}
-                                            {/*</ul>*/}
+                                        <li className="menu-item-has-children">
+                                            <Link>Our Programs</Link>
+                                            <ul className="sub-menu">
+                                                <li><Link onClick={ClickHandler} to="/campaign-single/Support-for-Womans">Campus climate ambassador club
+                                                </Link></li>
+                                                <li><Link onClick={ClickHandler} to="/campaign-single/Support-for-Womans">Clean up programs</Link></li>
+                                                <li><Link onClick={ClickHandler} to="/campaign-single/Support-for-Womans">Green skill trainings
+                                                </Link></li>
+                                                <li><Link onClick={ClickHandler} to="/campaign-single/Support-for-Womans">Farmers climate change empowerment program
+                                                </Link></li>
+                                            </ul>
+                                        </li>
+                                        <li className="menu-item-has-children">
+                                            <Link>Projects</Link>
+                                            <ul className="sub-menu">
+                                                <li><Link onClick={ClickHandler} to="/campaign-single/Support-for-Womans">Mini Grid project
+                                                </Link></li>
+                                                <li><Link onClick={ClickHandler} to="/campaign-single/Support-for-Womans">Waste to wealth projects(Recycling & Upcycling)
+                                                </Link></li>
+                                                <li><Link onClick={ClickHandler} to="/campaign-single/Support-for-Womans">RURAL COMMUNITY ENERGY PROJECT</Link></li>
+                                            </ul>
                                         </li>
                                         <li className="menu-item-has-children">
                                             <Link onClick={ClickHandler} to="/">Pages</Link>
@@ -131,10 +144,10 @@ const Header2 = (props) => {
                                     </div>
                                     <div className="social">
                                         <ul>
-                                            <li><Link to="/"><i className="fi flaticon-facebook-app-symbol"></i></Link></li>
-                                            <li><Link to="/"><i className="fi flaticon-twitter"></i></Link></li>
-                                            <li><Link to="/"><i className="fi flaticon-linkedin"></i></Link></li>
-                                            <li><Link to="/"><i className="fi flaticon-instagram-1"></i></Link></li>
+                                            <li><Link to="https://www.facebook.com/Tidenetworker"><i className="fi flaticon-facebook-app-symbol"></i></Link></li>
+                                            <li><Link to="https://www.instagram.com/tidenetworkafrica"><i className="fi flaticon-twitter"></i></Link></li>
+                                            <li><Link to="https://www.linkedin.com/company/tide-network-africa/"><i className="fi flaticon-linkedin"></i></Link></li>
+                                            {/*<li><Link to="/"><i className="fi flaticon-instagram-1"></i></Link></li>*/}
                                         </ul>
                                     </div>
                                 </div>

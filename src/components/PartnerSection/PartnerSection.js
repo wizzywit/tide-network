@@ -7,7 +7,7 @@ import pimg2 from '../../images/partners/img-2.png'
 import pimg3 from '../../images/partners/img-3.png'
 import pimg4 from '../../images/partners/img-4.png'
 import pimg5 from '../../images/partners/img-5.png'
-import pimg6 from '../../images/partners/img-6.png'
+// import pimg6 from '../../images/partners/img-6.png'
 
 const partners = [
     {
@@ -26,7 +26,7 @@ const partners = [
         pImg: pimg5,
     },
     {
-        pImg: pimg6,
+        pImg: pimg4,
     },
     {
         pImg: pimg2,
