@@ -49,8 +49,8 @@ const Features = (props) => {
                                         <i className="fi flaticon-conference-1"></i>
                                     </div>
                                     <div className="feature-text">
-                                        <h2><Link onClick={ClickHandler} to="/campaign">Campaign Events</Link></h2>
-                                        <p>Join us in supporting a worthy cause at our charity event, together we can make a difference.</p>
+                                        <h2><Link onClick={ClickHandler} to="/campaign">Upcoming Program</Link></h2>
+                                        <p>Join us in supporting a worthy cause at our program, together we can make a difference.</p>
                                     </div>
                                 </div>
                             </div>
